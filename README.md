@@ -24,8 +24,10 @@ https://www.jetbrains.com/rider/download/#section=windows
 
 This is all we need! next off, install the project:
 ## Installation:
+Download the latest release from this link:
 
 
 Hi
 
 ## Updating the files:
+
