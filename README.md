@@ -1,5 +1,5 @@
 # SmartTrafficProject
-First off, before handling the project please download the following dependencies
+Hi! First off, before handling the project please download the following dependencies
 
 ## Dependencies:
 
@@ -25,9 +25,7 @@ https://www.jetbrains.com/rider/download/#section=windows
 This is all we need! next off, install the project:
 ## Installation:
 Download the latest release from this link:
-
-
-Hi
+https://drive.google.com/file/d/1-qxPRrXsRkGW1sQ2jCNuHNFPF8OC1NYG/view?usp=sharing
 
 ## Updating the files:
 
