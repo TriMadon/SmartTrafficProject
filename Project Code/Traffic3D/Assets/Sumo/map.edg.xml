@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+
+   <edge id="W_entry_o" from="W_node" to="W_entry" priority="50" numLanes="3" speed="25" />
+   <edge id="W_entry_i" from="W_entry" to="W_node" priority="50" numLanes="3" speed="25" />
+
+   <edge id="E_entry_o" from="E_node" to="E_entry" priority="50" numLanes="3" speed="25" />
+   <edge id="E_entry_i" from="E_entry" to="E_node" priority="50" numLanes="3" speed="25" />
+
+   <edge id="S_entry_o" from="S_node" to="S_entry" priority="50" numLanes="3" speed="25" />
+   <edge id="S_entry_i" from="S_entry" to="S_node" priority="50" numLanes="3" speed="25" />
+
+   <edge id="N_entry_o" from="N_node" to="N_entry" priority="50" numLanes="3" speed="25" />
+   <edge id="N_entry_i" from="N_entry" to="N_node" priority="50" numLanes="3" speed="25" />
+
+
+
+   <edge id="W_i" name="West Approach Entry" from="W_node" to="tl_0" priority="50" numLanes="3" speed="25"/>
+   <edge id="W_o" name="West Approach Exit" from="tl_0" to="W_node" priority="50" numLanes="3" speed="25"/>
+
+   <edge id="E_i" name="East Approach Entry" from="E_node" to="tl_0" priority="50" numLanes="3" speed="25"/>
+   <edge id="E_o" name="East Approach Exit" from="tl_0" to="E_node" priority="50" numLanes="3" speed="25"/>
+
+   <edge id="S_i" name="South Approach Entry" from="S_node" to="tl_0" priority="50" numLanes="3" speed="25"/>
+   <edge id="S_o" name="South Approach Exit" from="tl_0" to="S_node" priority="50" numLanes="3" speed="25"/>
+
+   <edge id="N_i" name="North Approach Entry" from="N_node" to="tl_0" priority="50" numLanes="3" speed="25"/>
+   <edge id="N_o" name="North Approach Exit" from="tl_0" to="N_node" priority="50" numLanes="3" speed="25"/>
+
+
+</edges>

@@ -1,0 +1,21 @@
+<additional>
+
+	<!-- E2 Detectors -->
+	<laneAreaDetector id="N_0_det" lane="N_i_0" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="N_1_det" lane="N_i_1" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="N_2_det" lane="N_i_2" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="E_0_det" lane="E_i_0" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="E_1_det" lane="E_i_1" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="E_2_det" lane="E_i_2" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="S_0_det" lane="S_i_0" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="S_1_det" lane="S_i_1" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="S_2_det" lane="S_i_2" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="W_0_det" lane="W_i_0" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="W_1_det" lane="W_i_1" pos="430" endPos="-1" file="NUL" freq="1000" />
+	<laneAreaDetector id="W_2_det" lane="W_i_2" pos="430" endPos="-1" file="NUL" freq="1000" />
+
+  <tlLogic id="tl_0" programID="default" offset="0" type="static">
+	<phase name="P1" duration="1000" state="rrrrrrrrrrrrrrrrrrrr" />
+  </tlLogic>
+
+</additional>

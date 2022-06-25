@@ -1,0 +1,1 @@
+traci.start(['sumo-gui', '-c', 'map.sumocfg'], port=4001, label='default')
