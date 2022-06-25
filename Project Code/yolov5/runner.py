@@ -18,16 +18,16 @@ dictionary = {
     "west": 0
 }
 backPath = os.path.normpath(os.getcwd() + os.sep + os.pardir).replace(os.sep, '/')
-roadMask = cv.imread(backPath + '/Traffic3D/Assets/buffer/NewestMask.jpg', 0)
+roadMask = cv.imread(backPath + '/traffic3d/Traffic3D/Assets/buffer/NewestMask.jpg', 0)
 
 while True:
 
     try:
         # Images
-        northImg = cv.imread(backPath + '/Traffic3D/Assets/buffer/N.jpg')  # or file, Path, PIL, OpenCV, numpy, list
-        eastImg = cv.imread(backPath + '/Traffic3D/Assets/buffer/E.jpg')
-        southImg = cv.imread(backPath + '/Traffic3D/Assets/buffer/S.jpg')
-        westImg = cv.imread(backPath + '/Traffic3D/Assets/buffer/W.jpg')
+        northImg = cv.imread(backPath + '/traffic3d/Traffic3D/Assets/buffer/N.jpg')  # or file, Path, PIL, OpenCV, numpy, list
+        eastImg = cv.imread(backPath + '/traffic3d/Traffic3D/Assets/buffer/E.jpg')
+        southImg = cv.imread(backPath + '/traffic3d/Traffic3D/Assets/buffer/S.jpg')
+        westImg = cv.imread(backPath + '/traffic3d/Traffic3D/Assets/buffer/W.jpg')
 
         northMasked = cv.cvtColor(cv.bitwise_and(northImg, northImg, mask=roadMask)[30:, :], cv.COLOR_BGR2RGB)
         eastMasked = cv.cvtColor(cv.bitwise_and(eastImg, eastImg, mask=roadMask)[30:, :], cv.COLOR_BGR2RGB)
@@ -60,7 +60,7 @@ while True:
         dictionary['west'] = westCount
 
         json_object = json.dumps(dictionary, indent=4)
-        with open(backPath + "/Traffic3D/Assets/buffer/CONx.json", "w") as outfile:
+        with open(backPath + "/traffic3d/Traffic3D/Assets/buffer/CONx.json", "w") as outfile:
             outfile.write(json_object)
 
         time.sleep(0.3)
